@@ -1,0 +1,15 @@
+void WRITE_C2D_TIMESTAMP(const char *json_filepath);
+void WRITE_C2D_MACHINE_NAME(const char *json_filepath);
+void WRITE_C2D_COMPANY_NAME(const char *json_filepath);
+void WRITE_C2D_ACCOUNT_NAME(const char *json_filepath);
+void WRITE_C2D_INSTALLERS_PASSWORD(const char *json_filepath);
+void WRITE_C2D_COMPLETE(void);
+void READ_C2D_SETUP_TRANSFERRING_STATUS(void);
+void WRITE_PAGE_TO_RAM(void);
+void WRITE_UPLOAD_SECTOR_NUMBER(void);
+void WRITE_UPLOAD_SECTOR_TO_FLASH(void);
+void COMPLETE_TRANSFER_FINAL_STEP(void);
+void READ_C2D_FIRMWARE_TRANSFERRING_STATUS(void);
+void WRITE_C2D_FW_UPLOAD_TOTAL_SECTORS(void);
+void COMPLETE_TRANSFER_STEP2(void);
+void WATCHDOG_REBOOT(void);
